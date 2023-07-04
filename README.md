@@ -53,7 +53,7 @@ IBISCO Clusters (_Infrastructure for Big Data and Scientific Computing_)  of the
 
 ![image](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/assets/60811552/9f4f1d1b-a63a-44ab-a266-216afd65d006)
 
-We have 32 Nodes(servers) on the Data Center, Each nodes(servers) has 4 GPUs which are connected by [nVLink](https://www.nvidia.com/en-us/data-center/nvlink/). </br>These 32 Servers are connected by [InfiniBand : _Complex workloads demand ultra-fast processing of high-resolution simulations, extreme-size datasets, and highly parallelized algorithms._](https://www.nvidia.com/en-us/networking/products/infiniband/)</br>
+Figure: We have 32 Nodes(servers) on the Data Center, Each nodes(servers) has 4 GPUs which are connected by [nVLink](https://www.nvidia.com/en-us/data-center/nvlink/). </br>These 32 Servers are connected by [InfiniBand : _Complex workloads demand ultra-fast processing of high-resolution simulations, extreme-size datasets, and highly parallelized algorithms._](https://www.nvidia.com/en-us/networking/products/infiniband/)</br>
 </br></br>
 ## Some Technical points:
 
