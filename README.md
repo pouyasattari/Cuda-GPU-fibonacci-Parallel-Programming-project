@@ -8,16 +8,16 @@ We'll see also why a Fibonacci sequence leads to the creation of a - (minus) dig
 
 ## Table of Contents
 
-- [What is CUDA parallel programming](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/edit/main/README.md#what-is-cuda)
-- [Why we used C++ ](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/edit/main/README.md#why-we-used-c-)
-- [What is Fibonacci?](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/edit/main/README.md#what-is-fibonacci)
-- [The Main Idea](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/edit/main/README.md#the-main-idea)
-- [ Where did I run this project?](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/edit/main/README.md#where-did-i-run-this-project)
-- [Some Technical points](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/edit/main/README.md#some-technical-points)
-- [Why minus numbers will be generated?](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/edit/main/README.md#why-minus-numbers-will-be-generated)
-- [How to Run](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/edit/main/README.md#how-to-run)
-- [My test](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/edit/main/README.md#my-test)
-- [Result Compare](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/edit/main/README.md#compare-runtime-results-)
+- [What is CUDA parallel programming](#what-is-cuda)
+- [Why we used C++ ](#why-we-used-c-)
+- [What is Fibonacci?](#what-is-fibonacci)
+- [The Main Idea](#the-main-idea)
+- [ Where did I run this project?](#where-did-i-run-this-project)
+- [Some Technical points](#some-technical-points)
+- [Why minus numbers will be generated?](#why-minus-numbers-will-be-generated)
+- [How to Run](#how-to-run)
+- [My test](#my-test)
+- [Result Compare](#compare-runtime-results-)
 - [Conclution](#conclution)
 </br></br>
 ## What is CUDA?
