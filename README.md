@@ -189,5 +189,8 @@ In conclusion, when comparing manual sorting algorithms and sorting algorithms i
 
 
 
+Teammate: STEFANO ACIERNO
+
+
 
 
