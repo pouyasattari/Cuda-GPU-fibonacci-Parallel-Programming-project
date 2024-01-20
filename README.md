@@ -3,7 +3,7 @@
 
 This project is written in C++ on Cuda. The general Idea of this project is to generate a Fibonacci Sequence and sort it by **Manual Sorting Algorithms** Such as (_Bubble Sort, Quick Sort, Merge Sort, and Heap Sort_) And Also **Sorting Algorithms by Thrust Library** such as _('thrust::sort' and 'thrust::transform')_ at the same time.
 
-We'll see also why a Fibonacci sequence leads to the creation of a - (minus) digit and how will handle this.</br></br>
+We'll see also why a Fibonacci sequence leads to the creation of a - (minus) sequence and how we will handle this.</br></br>
 
 
 ## 🗂️ Table of Contents
@@ -25,7 +25,7 @@ We'll see also why a Fibonacci sequence leads to the creation of a - (minus) dig
 
 CUDA simplifies GPU Parallel programming, allowing developers to utilize the power of NVIDIA GPUs for parallel computing tasks. It provides a programming model, libraries, and tools for efficient GPU acceleration.
 </br></br>
-### 🧐 Why we used C++ ?
+### 🧐 Why do we use C++ ?
 
 C++ is used with CUDA in this project to take advantage of the rich features and libraries provided by C++. CUDA is an extension of the C++ programming language, allowing developers to write parallel code for GPUs. By using C++, the project can leverage object-oriented programming capabilities, standard template libraries, and other features provided by C++, making the code more expressive, modular, and easier to develop and maintain.
 
