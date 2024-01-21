@@ -18,14 +18,14 @@ We'll see also why a Fibonacci sequence leads to the creation of a - (minus) seq
 - [How to Run](#how-to-run)
 - [My test](#my-test)
 - [Result Compare](#compare-runtime-results-)
-- [Conclution](#conclution)
+- [Conclusion](#conclusion)
 </br></br>
 
 ## 🤓 What is CUDA?
 
 CUDA simplifies GPU Parallel programming, allowing developers to utilize the power of NVIDIA GPUs for parallel computing tasks. It provides a programming model, libraries, and tools for efficient GPU acceleration.
 </br></br>
-### 🧐 Why do we use C++ ?
+### 🧐 Why do we use C++?
 
 C++ is used with CUDA in this project to take advantage of the rich features and libraries provided by C++. CUDA is an extension of the C++ programming language, allowing developers to write parallel code for GPUs. By using C++, the project can leverage object-oriented programming capabilities, standard template libraries, and other features provided by C++, making the code more expressive, modular, and easier to develop and maintain.
 
@@ -54,7 +54,7 @@ IBISCO Clusters (_Infrastructure for Big Data and Scientific Computing_)  of the
 
 ![image](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/assets/60811552/9f4f1d1b-a63a-44ab-a266-216afd65d006)
 
-Figure: We have 32 Nodes(servers) on the Data Center, Each nodes(servers) has 4 GPUs which are connected by [nVLink](https://www.nvidia.com/en-us/data-center/nvlink/). </br>These 32 Servers are connected by [InfiniBand : _Complex workloads demand ultra-fast processing of high-resolution simulations, extreme-size datasets, and highly parallelized algorithms._](https://www.nvidia.com/en-us/networking/products/infiniband/)</br>
+Figure: We have 32 Nodes(servers) on the Data Center, Each node (servers) has 4 GPUs which are connected by [nVLink](https://www.nvidia.com/en-us/data-center/nvlink/). </br>These 32 Servers are connected by [InfiniBand: _Complex workloads demand ultra-fast processing of high-resolution simulations, extreme-size datasets, and highly parallelized algorithms._](https://www.nvidia.com/en-us/networking/products/infiniband/)</br>
 </br></br>
 ## 📐🧩 Some Technical points
 
@@ -64,7 +64,7 @@ Figure: We have 32 Nodes(servers) on the Data Center, Each nodes(servers) has 4 
 </br></br>
 ## 🔢📉 Why minus numbers will be generated?
 
-</br>Look at the output of generated sequence:
+</br>Look at the output of the generated sequence:
 ```C++
 0 1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418 317811 514229 832040 1346269 2178309 3524578 5702887 9227465 14930352 24157817 39088169 63245986 102334155 165580141 267914296 433494437 701408733 1134903170 1836311903 -1323752223 512559680 -811192543 -298632863 -1109825406 -1408458269 1776683621 368225352 2144908973 -1781832971
 ```
@@ -173,7 +173,7 @@ Thrust Sort Time: 0.081 ms
 ~Thrust Sorting Algorithm : 
 Thrust Sort + Transformation Time: 0.033 ms
 ```
-**Worth noting is that manual sortings are run on the CPU, while sorting algorithms by the Thrust library run on the GPU.**
+**Worth noting is that manual sortings are run on the CPU while sorting algorithms by the Thrust library run on the GPU.**
 </br></br></br>
 
 ## ⚖️⏱️ Compare runtime Results : 
@@ -183,9 +183,9 @@ I did the sortation for different values of N = [100, 1000, 10000, 100000]
 ![image](https://github.com/pouyasattari/Cuda-GPU-fibonacci-project/assets/60811552/998ca667-d87d-449a-8283-1bf6b2664ac4)
 
 </br></br>
-# 🎓🏁 Conclution
+# 🎓🏁 Conclusion
 
-In conclusion, when comparing manual sorting algorithms and sorting algorithms implemented using the Thrust library, the results show that the manual sorting algorithms (Bubble Sort, Quick Sort, Merge Sort, and Heap Sort) have significantly longer execution times, ranging from 0.771 ms to 16.328 ms.</br> On the other hand, the sorting algorithm provided by the Thrust library demonstrates significantly improved performance, with a sorting time of only 0.081 ms.</br> Additionally, when applying a transformation step before sorting using the Thrust library, the total execution time is further reduced to an impressive 0.033 ms. </br>These results highlight the efficiency and effectiveness of leveraging GPU acceleration through the Thrust library for sorting operations, offering substantial performance gains compared to traditional CPU-based manual sorting algorithms.
+In Conclusion, when comparing manual sorting algorithms and sorting algorithms implemented using the Thrust library, the results show that the manual sorting algorithms (Bubble Sort, Quick Sort, Merge Sort, and Heap Sort) have significantly longer execution times, ranging from 0.771 ms to 16.328 ms.</br> On the other hand, the sorting algorithm provided by the Thrust library demonstrates significantly improved performance, with a sorting time of only 0.081 ms.</br> Additionally, when applying a transformation step before sorting using the Thrust library, the total execution time is further reduced to an impressive 0.033 ms. </br>These results highlight the efficiency and effectiveness of leveraging GPU acceleration through the Thrust library for sorting operations, offering substantial performance gains compared to traditional CPU-based manual sorting algorithms.
 
 
 
